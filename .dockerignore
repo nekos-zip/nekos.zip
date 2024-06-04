@@ -1,5 +1,6 @@
 .vscode
 .git
+.astro
 **/.gitignore
 *.md
 *.code-workspace
