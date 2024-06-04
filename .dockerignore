@@ -1,0 +1,7 @@
+.vscode
+.git
+**/.gitignore
+*.md
+*.code-workspace
+dist
+node_modules

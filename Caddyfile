@@ -1,0 +1,6 @@
+http://nekos.zip:80, http://localhost:80 {
+	encode zstd gzip
+	try_files {path}.html {path}
+	root * /srv
+	file_server
+}
