@@ -1,7 +1,7 @@
 body {
   background-color: #152b78;
   /*#546294 for weird bg*/
-  background-image: url(../images/bg.png);
+  background-image: url(/src/assets/images/bg.png);
 }
 
 #header {
