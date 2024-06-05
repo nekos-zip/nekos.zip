@@ -3,7 +3,29 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@res/*": ["src/res/*"]
+      "@layouts/*": ["src/layouts/*"],
+      "@res/*": ["src/res/*"],
+
+      // Alyxia
+      "#components/*": ["src/components/alyxia/*"],
+      "#layouts/*": ["src/layouts/alyxia/*"],
+      "#css/*": ["src/res/css/alyxia/*"],
+      "#js/*": ["src/res/js/alyxia/*"],
+      "#/*": ["public/alyxia/*"],
+
+      // moon
+      "((components/*": ["src/components/moon/*"],
+      "((layouts/*": ["src/layouts/moon/*"],
+      "((css/*": ["src/res/css/moon/*"],
+      "((js/*": ["src/res/js/moon/*"],
+      "((/*": ["public/moon/*"],
+
+      // Noia
+      "^components/*": ["src/components/noia/*"],
+      "^layouts/*": ["src/layouts/noia/*"],
+      "^css/*": ["src/res/css/noia/*"],
+      "^js/*": ["src/res/js/noia/*"],
+      "^/*": ["public/noia/*"]
     }
   }
 }
