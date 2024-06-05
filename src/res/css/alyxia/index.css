@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Paragraph";
+  src: url(/alyxia/font/paragraph.ttf);
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: Paragraph;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: solid white 2px;
+  padding: 2rem;
+}
