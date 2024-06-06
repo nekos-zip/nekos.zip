@@ -36,7 +36,13 @@ import IndexLayout from "#layouts/IndexLayout.astro";
   </main>
 </IndexLayout>
 
-<style scoped>
+<style scoped lang="scss">
+  @mixin desktop {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
   body {
     background: url(/alyxia/images/effct.gif);
     image-rendering: pixelated;
@@ -48,9 +54,13 @@ import IndexLayout from "#layouts/IndexLayout.astro";
     width: 100%;
     color: #d5d5d5;
     text-align: center;
-    font-size: 3vw;
+    font-size: xx-large;
     mix-blend-mode: color-dodge;
     overflow-wrap: break-word;
+
+    @include desktop {
+      font-size: 3vw;
+    }
   }
 
   div {
