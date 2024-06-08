@@ -1,0 +1,12 @@
+---
+import { parse } from "#js/parse";
+
+let html = "";
+if (Astro.slots.has("default")) {
+  html = await Astro.slots.render("default");
+}
+
+html = parse(html);
+---
+
+<Fragment set:html={html} />

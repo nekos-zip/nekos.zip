@@ -1,4 +1,5 @@
 ---
+import CrossCode from "#components/CrossCode.astro";
 import "#css/index.css";
 ---
 
@@ -7,5 +8,7 @@ import "#css/index.css";
 </head>
 
 <main>
-  <slot />
+  <CrossCode>
+    <slot />
+  </CrossCode>
 </main>

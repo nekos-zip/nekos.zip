@@ -18,6 +18,9 @@ importers:
         specifier: ^5.4.5
         version: 5.4.5
     devDependencies:
+      cc-textparser:
+        specifier: ^1.1.0
+        version: 1.1.0
       sass:
         specifier: ^1.77.4
         version: 1.77.4
@@ -854,6 +857,9 @@ packages:
 
   caniuse-lite@1.0.30001627:
     resolution: {integrity: sha512-4zgNiB8nTyV/tHhwZrFs88ryjls/lHiqFhrxCW4qSTeuRByBVnPYpDInchOIySWknznucaf31Z4KYqjfbrecVw==}
+
+  cc-textparser@1.1.0:
+    resolution: {integrity: sha512-t+Pti53+qQgEsr9NrwuLiVFTvDSW4mq59ox3vqdki7pBJdpNiZJN1W48tPlM2rzuOmBBGsYU7213mhTEL/iItw==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -2876,6 +2882,8 @@ snapshots:
   camelcase@7.0.1: {}
 
   caniuse-lite@1.0.30001627: {}
+
+  cc-textparser@1.1.0: {}
 
   ccount@2.0.1: {}
 
