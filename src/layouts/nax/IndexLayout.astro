@@ -1,0 +1,21 @@
+---
+import "🌙css/index.css";
+import gradient from "🌙/img/gradient.png";
+import { Image } from "astro:assets";
+---
+
+<head>
+	<meta name="viewport" content="width=device-width" />
+</head>
+<div id="bg">
+	<div id="wrapper">
+		<h1 id="txt">I AM NAX</h1>
+	</div>
+	<Image src={gradient} id="gradient" alt="" hidden loading="eager" />
+	<canvas id="bgc"></canvas>
+	<script src="🌙js/home/main"></script>
+</div>
+
+<main>
+	<slot />
+</main>
